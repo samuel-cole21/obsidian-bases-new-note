@@ -1,18 +1,28 @@
 .bases-new-note-settings-btn {
-	opacity: 0.6;
 	cursor: pointer;
-	padding: 4px;
-	display: flex;
-	align-items: center;
+	margin-left: 4px;
+	padding: 4px 6px;
+	border-radius: var(--radius-s);
 }
 
 .bases-new-note-settings-btn:hover {
-	opacity: 1;
+	background-color: var(--background-modifier-hover);
 }
 
-.bases-new-note-settings-btn svg {
-	width: 14px;
-	height: 14px;
+.bases-new-note-settings-inner {
+	display: inline-flex;
+	align-items: center;
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.bases-new-note-settings-btn:hover .bases-new-note-settings-inner {
+	color: var(--text-normal);
+}
+
+.bases-new-note-settings-inner svg {
+	width: var(--icon-s);
+	height: var(--icon-s);
 }
 
 /* Settings modal */
