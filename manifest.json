@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-bases-new-note",
+	"name": "Bases New Note",
+	"version": "1.0.0",
+	"minAppVersion": "1.10.0",
+	"description": "Configure template, location, and pre-filled properties for the Bases 'New' button.",
+	"author": "Samuel Cole",
+	"authorUrl": "https://github.com/samuel-cole21",
+	"isDesktopOnly": false
+}
